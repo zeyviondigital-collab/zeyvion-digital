@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>body { background: #020202; color: white; }</style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-6">
+    <div class="max-w-md w-full p-12 rounded-[3rem] border border-white/10 bg-[#0a0a0a]">
+        <h2 class="text-3xl font-bold italic mb-1">Confirm Enrollment</h2>
+        <p id="course-display" class="text-sky-500 mb-8 italic"></p>
+        <form action="https://formspree.io/f/xnjejgab" method="POST" class="space-y-6">
+            <input type="hidden" name="course" id="course-input">
+            <input type="hidden" name="price" id="price-input">
+            <input type="text" name="name" placeholder="Full Name" required class="w-full bg-transparent border-b border-white/20 pb-3 outline-none focus:border-sky-500">
+            <input type="email" name="email" placeholder="Email Address" required class="w-full bg-transparent border-b border-white/20 pb-3 outline-none focus:border-sky-500">
+            <button type="submit" class="w-full bg-white text-black py-4 rounded-full font-bold hover:bg-sky-500 transition">Submit Application</button>
+        </form>
+    </div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const course = params.get('course').replace(/_/g, ' ');
+        const price = params.get('price');
+        document.getElementById('course-display').innerText = course + " | $" + price;
+        document.getElementById('course-input').value = course;
+        document.getElementById('price-input').value = price;
+    </script>
+</body>
+</html>
