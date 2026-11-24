@@ -50,7 +50,7 @@ export default function TermsOfService() {
         </h2>
         <p>
           These terms are governed by the laws of the State of Wyoming, United
-          States. Contact: support@zeyviondigital.com.
+          States. Contact: osama@zeyviondigital.com.
         </p>
       </div>
     </div>
