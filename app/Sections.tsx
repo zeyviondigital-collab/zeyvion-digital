@@ -73,7 +73,6 @@ export function PackagesAndContact() {
                   <option value="$499 - Starter Web Presence">$499 - Starter Web Presence</option>
                   <option value="$999 - Brand & UI/UX Architecture">$999 - Brand & UI/UX Architecture</option>
                   <option value="$1,999 - Full Custom Web Application">$1,999 - Full Custom Web Application</option>
-                  <option value="$3,000+ - Enterprise Solution">$3,000+ - Enterprise Solution</option>
                 </select>
                 <textarea rows={4} required placeholder="Project Brief *" className="w-full px-4 py-3 rounded-xl bg-black/60 border border-white/10 text-white text-sm" />
                 <button type="submit" className="w-full py-3.5 rounded-full bg-amber-400 text-black font-semibold text-sm hover:bg-amber-300 cursor-pointer">Submit Inquiry</button>
