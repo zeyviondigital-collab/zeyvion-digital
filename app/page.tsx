@@ -36,7 +36,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
           <div>
             <p className="text-white font-semibold uppercase text-sm">Zeyviondigital LLC</p>
-            <p className="mt-1">30 N Gould St Ste R, Sheridan, WY 82801, USA • support@zeyviondigital.com</p>
+            <p className="mt-1">30 N Gould St Ste R, Sheridan, WY 82801, USA • osama@zeyviondigital.com</p>
           </div>
           <div className="flex flex-wrap justify-center gap-5 sm:gap-6">
             <Link href="/privacy-policy" className="hover:text-amber-300">Privacy Policy</Link>
