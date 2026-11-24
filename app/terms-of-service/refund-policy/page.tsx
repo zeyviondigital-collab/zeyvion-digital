@@ -41,7 +41,7 @@ export default function RefundPolicy() {
         </h2>
         <p>
           To request a cancellation or refund review, please email{" "}
-          <span className="text-amber-300">support@zeyviondigital.com</span>{" "}
+          <span className="text-amber-300">osama@zeyviondigital.com</span>{" "}
           with your order details. Approved refunds are processed back to the
           original payment method within 5–7 business days.
         </p>
