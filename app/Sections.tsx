@@ -52,7 +52,7 @@ export function PackagesAndContact() {
               </div>
               <div className="p-4 rounded-xl border border-white/10 bg-white/[0.02]">
                 <p className="text-xs text-zinc-500">EMAIL & PHONE</p>
-                <p className="text-amber-300 font-medium mt-1"> osama@zeyviondigital.com • +1 (307) 205-8490</p>
+                <p className="text-amber-300 font-medium mt-1"> osama@zeyviondigital.com • ‪+13073461753 ‬</p>
               </div>
             </div>
           </div>
