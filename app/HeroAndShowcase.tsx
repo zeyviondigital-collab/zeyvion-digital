@@ -14,7 +14,7 @@ export function HeroAndShowcase() {
       </div>
 
       <div className="mt-10 sm:mt-14 rounded-2xl sm:rounded-3xl overflow-hidden border border-white/15 shadow-2xl">
-        <img src="/banner.svg" alt="Zeyviondigital Academy Dashboard" className="w-full h-auto block" />
+        <img src="/hero.png.jpg" alt="Zeyviondigital Academy" className="w-full h-[240px] sm:h-[400px] md:h-[520px] object-cover block" />
       </div>
     </section>
   );
