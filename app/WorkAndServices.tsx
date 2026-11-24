@@ -6,10 +6,10 @@ export function WorkAndServices() {
         <h2 className="text-2xl sm:text-5xl font-semibold text-white mb-10 sm:mb-14">Featured Courses & Systems</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {[
-            ["Full-Stack Web Engineering Bootcamp", "Online Video Course • 40+ Modules", "https://pexels.com"],
-            ["Digital Brand & E-Commerce Mastery", "Certification Program • Live Mentorship", "https://pexels.com"],
-            ["AI & Automation for Modern Business", "Executive Workshop • Digital Toolkit", "https://pexels.com"],
-            ["UI/UX Product Design Systems", "Hands-On Course • Figma & Next.js", "https://pexels.com"],
+            ["Full-Stack Web Engineering Bootcamp", "Online Video Course • 40+ Modules", "/course1.png.jpg"],
+            ["Digital Brand & E-Commerce Mastery", "Certification Program • Live Mentorship", "/course2.png.jpg"],
+            ["AI & Automation for Modern Business", "Executive Workshop • Digital Toolkit", "/course3.png.jpg"],
+            ["UI/UX Product Design Systems", "Hands-On Course • Figma & Next.js", "/course4.png.jpg"],
           ].map(([title, cat, img]) => (
             <div key={title} className="group rounded-2xl sm:rounded-3xl overflow-hidden border border-white/10 bg-zinc-900/40">
               <img src={img} alt={title} className="w-full h-56 sm:h-68 object-cover group-hover:scale-105 transition duration-700" />
