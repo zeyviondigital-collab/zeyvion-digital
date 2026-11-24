@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
         <h1 className="text-3xl font-semibold text-white">Privacy Policy</h1>
         <p className="text-xs text-zinc-500">Effective Date: November 2026</p>
         <p>Zeyviondigital LLC operates zeyviondigital.com. We respect your privacy and collect information (name, email, company details) solely to deliver contracted digital services and process payments securely via Stripe. We never sell your data.</p>
-        <p>Contact: support@zeyviondigital.com | Zeyviondigital LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA.</p>
+        <p>Contact: osama@zeyviondigital.com | Zeyviondigital LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA.</p>
       </div>
     </div>
   );
